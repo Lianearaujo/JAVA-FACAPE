@@ -1,0 +1,13 @@
+import java.io.*;
+class primeiro  //Leia um número inteiro e outro float e calcular a média aritmética. Utilize a classe JUtil. 
+{
+	public static void main(String[] args) throws Exception
+	{
+		int x;
+		System.out.println("Hello World!");
+		x = JUtil.readInt();
+			System.out.println(x);
+		JUtil.pause();
+
+	}
+}
