@@ -1,0 +1,20 @@
+import java.io.*; 
+class quinto { 
+/* 4) Leia o raio (r) de um círculo e mostre o diâmetro, a
+circunferência e a área do círculo. Utilize para p o
+valor da constante Math.PI (mais precisa que
+3,14159).
+– Diâmetro = 2r
+– Circunferência = 2 pr
+– área = p r ²
+*/
+	public static void main(String[] args) throws Exception {
+	float r;
+	System.out.println ("Informe o raio:");
+	r = JUtil.readFloat();
+	System.out.println("Diâmetro: "+ (2*r) + "\n Circunferência: "+ (2*Math.PI*r) +"\n área: "+ (Math.PI*(Math.pow(r,2))));  // MATH.PI usa o valor de pi e MATH.POW é usado para expoente Exp: 2^3 = Math.pow(2,3) acaba passando como paramentro
+	JUtil.pause();
+
+	}
+
+}
