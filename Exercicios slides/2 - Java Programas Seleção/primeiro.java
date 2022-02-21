@@ -1,0 +1,57 @@
+import java.io.*;
+/* 
+Exercícios
+Determine se um cliente de uma loja excedeu o limite
+de crédito. Leia :
+– Número da conta
+– O Nome do Cliente
+– Saldo do início do mês
+– Total de todos os itens cobrados no mês
+– Total de pagamentos efetuados pelo cliente no mês
+– Limite autorizado de crédito
+– Mostrar o Novo Saldo. Cálculo :
+– Saldo Inicial + cobranças - pagamentos
+– Caso este saldo exceda o limite de crédito informe :
+– “Limite de crédito excedido em R$ X reais”
+– Senão informe: “Ainda pode comprar R$ X reais */
+class primeiro {
+	public static void main (String[] args) throws Exception {
+	int NumeroConta;
+	String NomeCliente;
+	float SaldoInicial, TotalItensCobrados, TotalPagamentos, LimiteCredito, SaldoNovo;
+	System.out.println ("Informe o nome do cliente: ");
+	NomeCliente = JUtil.readString();
+	System.out.println ("Numero da Conta:");
+	NumeroConta = JUtil.readInt ();
+	System.out.println ("Saldo Inicial:");
+	SaldoInicial = JUtil.readFloat();
+	System.out.println ("total de itens cobrados:");
+	TotalItensCobrados = JUtil.readFloat();
+	System.out.println ("pagamentos feitos:");
+	TotalPagamentos = JUtil.readFloat();
+	System.out.println ("limite de credito:");
+	LimiteCredito = JUtil.readFloat();
+	SaldoNovo = SaldoInicial + TotalPagamentos-TotalItensCobrados;
+	if (NumeroConta > 0) //verifica se o valor da conta do cliente é menor igual a zero, caso for ele vai dizer que a conta é invalida
+	{
+	
+	System.out.println ("Sr(a) " + NomeCliente);
+	if ((SaldoNovo+LimiteCredito)<LimiteCredito)
+	{
+	System.out.println ("Limite de crédito excedido em R$"+ (SaldoNovo-LimiteCredito) +" reais.");
+	} else
+	{
+	System.out.println ("Ainda pode comprar R$"+ (LimiteCredito+SaldoNovo) +" reais");
+	System.out.println ("SALDO INCIAL "+ SaldoInicial );
+	System.out.println ("SALDO novo "+ SaldoNovo);
+	System.out.println ("SALDO limite "+ LimiteCredito);
+	System.out.println ("pagamentos feitos "+ TotalPagamentos );
+	System.out.println ("Itens cobrados "+ TotalItensCobrados );
+	}
+	} else 
+	{
+	System.out.println ("Numero de conta invalida");
+	}
+
+	}
+}
