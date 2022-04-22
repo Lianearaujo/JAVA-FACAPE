@@ -1,0 +1,7 @@
+class PessoaEx1Vetor 
+{
+
+	String Nomes;
+	int Idades;
+
+}

@@ -1,0 +1,24 @@
+import java.io*
+
+class montante {
+
+	public static void main(String []args) throws Exception{
+	String capital, taxa;
+	integer tempo, a;
+	
+	System.out.println ("Cacular montante \n Informe o Capital:");
+	capital = JUtil.readFloat ();
+	System.out.println ("Informe a taxa anual em %:");
+	taxa = JUtil.readFloat ();
+	System.out.println ("informe o tempo(anos):");
+	tempo = JUtil.readInteger ();
+	for (int i = 1; i<=tempo; i++){
+		a = capital*Math.pow((1+taxa), tempo)
+		System.out.println ("\nMontante no ano:"+ i + "="+a);
+		}
+	JUtil.pause();
+	}
+
+
+
+]

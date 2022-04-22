@@ -1,0 +1,7 @@
+class Pessoa1Vetor 
+{
+
+	String this.N;
+	int this.I;
+
+}
