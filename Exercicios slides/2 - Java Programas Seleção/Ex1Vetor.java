@@ -27,7 +27,7 @@ class Ex1Vetor
 			p[x].Nome = JUtil.readString();
 			System.out.println ("Qual a "+ (x+1) +"º idade ?");
 			p[x].Idade = JUtil.readInt();
-			System.out.println ("Nomes e idades Informados:");
+			System.out.println ("Nombes e idades Informados:");
 			x = x+1;
 		}
 		for (i = 0; i<(int)p.length ; i++)

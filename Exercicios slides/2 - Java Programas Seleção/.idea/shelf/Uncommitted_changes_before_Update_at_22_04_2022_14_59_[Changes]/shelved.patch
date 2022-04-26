@@ -1,0 +1,1186 @@
+Index: Ex1Vetor3.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex1Vetor3.java b/Ex1Vetor3.java
+new file mode 100644
+--- /dev/null	(date 1650639452946)
++++ b/Ex1Vetor3.java	(date 1650639452946)
+@@ -0,0 +1,17 @@
++class Ex1Vetor3 
++{
++	public static void main(String[] args) throws Exception 
++	{
++		int x, somaidades=0, maior=0, menor=0, y, i, temp =0;
++		
++		Pessoa1Vetor p[]= new Pessoa1Vetor [3];
++		
++		x =0;
++		
++			System.out.println ("Qual a "+ 1 +"� idade ?");
++			p[x] = new Pessoa1Vetor();
++			p[x].I = JUtil.readInt();
++
++		
++	}
++}
+Index: out/production/2 - Java Programas Seleção/Pessoa1Vetor.java.bak
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/out/production/2 - Java Programas Seleção/Pessoa1Vetor.java.bak b/out/production/2 - Java Programas Seleção/Pessoa1Vetor.java.bak
+new file mode 100644
+--- /dev/null	(date 1650639122860)
++++ b/out/production/2 - Java Programas Seleção/Pessoa1Vetor.java.bak	(date 1650639122860)
+@@ -0,0 +1,7 @@
++class Pessoa1Vetor 
++{
++
++	String this.N;
++	int this.I;
++
++}
+Index: out/production/2 - Java Programas Seleção/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/out/production/2 - Java Programas Seleção/.idea/workspace.xml b/out/production/2 - Java Programas Seleção/.idea/workspace.xml
+new file mode 100644
+--- /dev/null	(date 1650646023153)
++++ b/out/production/2 - Java Programas Seleção/.idea/workspace.xml	(date 1650646023153)
+@@ -0,0 +1,66 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ChangeListManager">
++    <list default="true" id="e96bd720-6bbc-4903-9251-65f25ecfec38" name="Changes" comment="" />
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
++  </component>
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
++  </component>
++  <component name="ProjectId" id="28A2howcrzL6xcIeUyxYDoiLLoH" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "WebServerToolWindowFactoryState": "false",
++    "last_opened_file_path": "C:/Users/elton/OneDrive/Área de Trabalho/Java/GitHub/Exercicios slides/2 - Java Programas Seleção"
++  }
++}]]></component>
++  <component name="RunManager" selected="JAR Application.run">
++    <configuration name="compilar" type="JarApplication">
++      <option name="JAR_PATH" value="$PROJECT_DIR$/../../../../../../../../Program Files/Java/jdk-17.0.2/bin/javac.exe" />
++      <option name="PROGRAM_PARAMETERS" value="$FileName$" />
++      <option name="WORKING_DIRECTORY" value="$FileDir$" />
++      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
++      <option name="ALTERNATIVE_JRE_PATH" value="17" />
++      <method v="2" />
++    </configuration>
++    <configuration name="run" type="JarApplication">
++      <option name="JAR_PATH" value="$PROJECT_DIR$/../../../../../../../../Program Files/Java/jdk-17.0.2/bin/java.exe" />
++      <option name="PROGRAM_PARAMETERS" value="$FileNameWithoutAllExtensions$" />
++      <option name="WORKING_DIRECTORY" value="$FileDir$" />
++      <option name="ALTERNATIVE_JRE_PATH" />
++      <method v="2" />
++    </configuration>
++    <list>
++      <item itemvalue="JAR Application.compilar" />
++      <item itemvalue="JAR Application.run" />
++    </list>
++  </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="e96bd720-6bbc-4903-9251-65f25ecfec38" name="Changes" comment="" />
++      <created>1650645191770</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1650645191770</updated>
++      <workItem from="1650645193638" duration="822000" />
++    </task>
++    <servers />
++  </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
++  </component>
++</project>
+\ No newline at end of file
+Index: montante.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/montante.java b/montante.java
+new file mode 100644
+--- /dev/null	(date 1646826022620)
++++ b/montante.java	(date 1646826022620)
+@@ -0,0 +1,21 @@
++import java.io.*;
++
++class montante {
++
++	public static void main(String []args) throws Exception{
++	float capital, taxa,a;
++	int tempo;
++	
++	System.out.println ("Cacular montante \n Informe o Capital:");
++	capital = JUtil.readFloat();
++	System.out.println ("Informe a taxa anual em %:");
++	taxa = JUtil.readFloat();
++	System.out.println ("informe o tempo(anos):");
++	tempo = JUtil.readInt();
++	for (int i = 1; i<=tempo; i++){
++		a = (float)(capital *(Math.pow((1+taxa/100f), i)));
++		System.out.println ("\nMontante no ano:"+ i + "="+a);
++		}
++	JUtil.pause();
++	}
++}
+\ No newline at end of file
+Index: Pessoa1Vetor.java.bak
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Pessoa1Vetor.java.bak b/Pessoa1Vetor.java.bak
+new file mode 100644
+--- /dev/null	(date 1650639122860)
++++ b/Pessoa1Vetor.java.bak	(date 1650639122860)
+@@ -0,0 +1,7 @@
++class Pessoa1Vetor 
++{
++
++	String this.N;
++	int this.I;
++
++}
+Index: out/production/2 - Java Programas Seleção/.idea/encodings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/out/production/2 - Java Programas Seleção/.idea/encodings.xml b/out/production/2 - Java Programas Seleção/.idea/encodings.xml
+new file mode 100644
+--- /dev/null	(date 1650646023201)
++++ b/out/production/2 - Java Programas Seleção/.idea/encodings.xml	(date 1650646023201)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Encoding">
++    <file url="file://$PROJECT_DIR$/Ex1Vetor.java" charset="windows-1252" />
++  </component>
++</project>
+\ No newline at end of file
+Index: out/production/2 - Java Programas Seleção/2 - Java Programas Seleção.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/out/production/2 - Java Programas Seleção/2 - Java Programas Seleção.iml b/out/production/2 - Java Programas Seleção/2 - Java Programas Seleção.iml
+new file mode 100644
+--- /dev/null	(date 1650646023089)
++++ b/out/production/2 - Java Programas Seleção/2 - Java Programas Seleção.iml	(date 1650646023089)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: out/production/2 - Java Programas Seleção/PessoaEx1Vetor.java.bak
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/out/production/2 - Java Programas Seleção/PessoaEx1Vetor.java.bak b/out/production/2 - Java Programas Seleção/PessoaEx1Vetor.java.bak
+new file mode 100644
+--- /dev/null	(date 1650637279201)
++++ b/out/production/2 - Java Programas Seleção/PessoaEx1Vetor.java.bak	(date 1650637279201)
+@@ -0,0 +1,7 @@
++class PessoaEx1Vetor 
++{
++
++	String Nomes;
++	int Idades;
++
++}
+\ No newline at end of file
+Index: PessoaEx1Vetor.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/PessoaEx1Vetor.java b/PessoaEx1Vetor.java
+new file mode 100644
+--- /dev/null	(date 1650639563489)
++++ b/PessoaEx1Vetor.java	(date 1650639563489)
+@@ -0,0 +1,7 @@
++class PessoaEx1Vetor 
++{
++
++	String Nome;
++	int Idade;
++
++}
+\ No newline at end of file
+Index: out/production/2 - Java Programas Seleção/.idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/out/production/2 - Java Programas Seleção/.idea/vcs.xml b/out/production/2 - Java Programas Seleção/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1650646023224)
++++ b/out/production/2 - Java Programas Seleção/.idea/vcs.xml	(date 1650646023224)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: out/production/2 - Java Programas Seleção/.idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/out/production/2 - Java Programas Seleção/.idea/modules.xml b/out/production/2 - Java Programas Seleção/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1650646023125)
++++ b/out/production/2 - Java Programas Seleção/.idea/modules.xml	(date 1650646023125)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/2 - Java Programas Seleção.iml" filepath="$PROJECT_DIR$/2 - Java Programas Seleção.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: Pessoa-Ex1Vetor.java.bak
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Pessoa-Ex1Vetor.java.bak b/Pessoa-Ex1Vetor.java.bak
+new file mode 100644
+--- /dev/null	(date 1650633067081)
++++ b/Pessoa-Ex1Vetor.java.bak	(date 1650633067081)
+@@ -0,0 +1,7 @@
++class Pessoa-Ex1Vetor 
++{
++
++	String Nome;
++	int Idade;
++
++}
+\ No newline at end of file
+Index: PessoaEx1Vetor.java.bak
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/PessoaEx1Vetor.java.bak b/PessoaEx1Vetor.java.bak
+new file mode 100644
+--- /dev/null	(date 1650637279201)
++++ b/PessoaEx1Vetor.java.bak	(date 1650637279201)
+@@ -0,0 +1,7 @@
++class PessoaEx1Vetor 
++{
++
++	String Nomes;
++	int Idades;
++
++}
+\ No newline at end of file
+Index: 2 - Java Programas Seleção.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/2 - Java Programas Seleção.iml b/2 - Java Programas Seleção.iml
+new file mode 100644
+--- /dev/null	(date 1650646023089)
++++ b/2 - Java Programas Seleção.iml	(date 1650646023089)
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: Pessoa1Vetor.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Pessoa1Vetor.java b/Pessoa1Vetor.java
+new file mode 100644
+--- /dev/null	(date 1650639151793)
++++ b/Pessoa1Vetor.java	(date 1650639151793)
+@@ -0,0 +1,7 @@
++class Pessoa1Vetor 
++{
++
++	String N;
++	int I;
++
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+new file mode 100644
+--- /dev/null	(date 1650650259904)
++++ b/.idea/workspace.xml	(date 1650650259904)
+@@ -0,0 +1,115 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ChangeListManager">
++    <list default="true" id="e96bd720-6bbc-4903-9251-65f25ecfec38" name="Changes" comment="1,1" />
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
++  </component>
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
++  </component>
++  <component name="ProjectId" id="28A2howcrzL6xcIeUyxYDoiLLoH" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "WebServerToolWindowFactoryState": "false",
++    "last_opened_file_path": "C:/Users/elton/OneDrive/Área de Trabalho/Java/GitHub/Exercicios slides/2 - Java Programas Seleção",
++    "settings.editor.selected.configurable": "vcs.Git"
++  }
++}]]></component>
++  <component name="RunManager" selected="Application.Ex1Vetor">
++    <configuration name="Ex1Vetor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="Ex1Vetor" />
++      <module name="2 - Java Programas Seleção" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="compilar" type="JarApplication">
++      <option name="JAR_PATH" value="$PROJECT_DIR$/../../../../../../../../Program Files/Java/jdk-17.0.2/bin/javac.exe" />
++      <option name="PROGRAM_PARAMETERS" value="$FileName$" />
++      <option name="WORKING_DIRECTORY" value="$FileDir$" />
++      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
++      <option name="ALTERNATIVE_JRE_PATH" value="17" />
++      <method v="2" />
++    </configuration>
++    <configuration name="run" type="JarApplication">
++      <option name="JAR_PATH" value="$PROJECT_DIR$/../../../../../../../../Program Files/Java/jdk-17.0.2/bin/java.exe" />
++      <option name="PROGRAM_PARAMETERS" value="$FileNameWithoutAllExtensions$" />
++      <option name="WORKING_DIRECTORY" value="$FileDir$" />
++      <option name="ALTERNATIVE_JRE_PATH" />
++      <method v="2" />
++    </configuration>
++    <list>
++      <item itemvalue="Application.Ex1Vetor" />
++      <item itemvalue="JAR Application.compilar" />
++      <item itemvalue="JAR Application.run" />
++    </list>
++    <recent_temporary>
++      <list>
++        <item itemvalue="Application.Ex1Vetor" />
++      </list>
++    </recent_temporary>
++  </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="e96bd720-6bbc-4903-9251-65f25ecfec38" name="Changes" comment="" />
++      <created>1650645191770</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1650645191770</updated>
++      <workItem from="1650645193638" duration="5017000" />
++    </task>
++    <task id="LOCAL-00001" summary="1,1">
++      <created>1650650236696</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1650650236696</updated>
++    </task>
++    <task id="LOCAL-00002" summary="1,1">
++      <created>1650650255738</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1650650255738</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
++    <servers />
++  </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="1,2, Arrays, Metodos, Objeto" />
++    <MESSAGE value="1,1" />
++    <option name="LAST_COMMIT_MESSAGE" value="1,1" />
++  </component>
++  <component name="XSLT-Support.FileAssociations.UIState">
++    <expand />
++    <select />
++  </component>
++</project>
+\ No newline at end of file
+Index: numeros.java.bak
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/numeros.java.bak b/numeros.java.bak
+new file mode 100644
+--- /dev/null	(date 1646831150789)
++++ b/numeros.java.bak	(date 1646831150789)
+@@ -0,0 +1,27 @@
++import java.io.*;
++class numeros {
++	public static void main (String[]args) throws Exception {
++	int linhas, cont;
++	String conf = "y";
++	System.out.println ("Informe quantos numeros deseja aparecer:");
++	linhas = JUtil.readInt();
++	cont = 1;
++	while (cont <=linhas || conf.equals("y")){
++		if ((cont%5) == 0 || cont == linhas){
++			System.out.println(cont);
++		} else
++		{
++			System.out.print(cont +",");
++		}
++		if (cont%10 == 0)
++		{
++			System.out.println ("Deseja aparecer mais linhas? y/n");
++			conf = JUtil.readString();
++		}
++		cont ++;
++	}
++	JUtil.pause();
++	
++	
++	}
++}
+\ No newline at end of file
+Index: ../Class-atributos/retangulo.java.bak
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Class-atributos/retangulo.java.bak b/../Class-atributos/retangulo.java.bak
+new file mode 100644
+--- /dev/null	(date 1648039587014)
++++ b/../Class-atributos/retangulo.java.bak	(date 1648039587014)
+@@ -0,0 +1,19 @@
++class Retangulo {
++float base, altura;
++
++float area () {
++	return this.base*this.altura;
++}
++
++float perimetro(){
++	return (2*(this.base+this.altura))
++}
++
++public void mostrarDados(){
++	System.out.println ("Area:"+ this.area());
++	System.out.println ("Petimetro:"+ this.perimetro());
++}
++
++
++
++}
+\ No newline at end of file
+Index: out/production/2 - Java Programas Seleção/montante.java]
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/out/production/2 - Java Programas Seleção/montante.java] b/out/production/2 - Java Programas Seleção/montante.java]
+new file mode 100644
+--- /dev/null	(date 1646825127806)
++++ b/out/production/2 - Java Programas Seleção/montante.java]	(date 1646825127806)
+@@ -0,0 +1,24 @@
++import java.io*
++
++class montante {
++
++	public static void main(String []args) throws Exception{
++	String capital, taxa;
++	integer tempo, a;
++	
++	System.out.println ("Cacular montante \n Informe o Capital:");
++	capital = JUtil.readFloat ();
++	System.out.println ("Informe a taxa anual em %:");
++	taxa = JUtil.readFloat ();
++	System.out.println ("informe o tempo(anos):");
++	tempo = JUtil.readInteger ();
++	for (int i = 1; i<=tempo; i++){
++		a = capital*Math.pow((1+taxa), tempo)
++		System.out.println ("\nMontante no ano:"+ i + "="+a);
++		}
++	JUtil.pause();
++	}
++
++
++
++]
+\ No newline at end of file
+Index: ../Class-atributos/JUtil.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Class-atributos/JUtil.java b/../Class-atributos/JUtil.java
+new file mode 100644
+--- /dev/null	(date 1645237794074)
++++ b/../Class-atributos/JUtil.java	(date 1645237794074)
+@@ -0,0 +1,21 @@
++import java.io.*;
++public class JUtil {
++
++public static String readString () throws Exception {
++DataInputStream A = new DataInputStream (System.in);
++return (A.readLine ());}
++
++public static short readShort () throws Exception  {
++return (Short.valueOf (readString ()).shortValue());}
++
++public static int readInt ()  throws Exception {
++return (Integer.valueOf (readString ()).intValue());	}
++
++public static float readFloat () throws Exception {
++return (Float.valueOf (readString ()).floatValue());}
++
++public static double readDouble () throws Exception {
++return ( Double.valueOf (readString ()).doubleValue());}
++
++public static void pause () throws Exception {
++String a = readString ();}}
+\ No newline at end of file
+Index: out/production/2 - Java Programas Seleção/montante.java.bak
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/out/production/2 - Java Programas Seleção/montante.java.bak b/out/production/2 - Java Programas Seleção/montante.java.bak
+new file mode 100644
+--- /dev/null	(date 1646825960140)
++++ b/out/production/2 - Java Programas Seleção/montante.java.bak	(date 1646825960140)
+@@ -0,0 +1,21 @@
++import java.io.*;
++
++class montante {
++
++	public static void main(String []args) throws Exception{
++	float capital, taxa,a;
++	int tempo;
++	
++	System.out.println ("Cacular montante \n Informe o Capital:");
++	capital = JUtil.readFloat();
++	System.out.println ("Informe a taxa anual em %:");
++	taxa = JUtil.readFloat();
++	System.out.println ("informe o tempo(anos):");
++	tempo = JUtil.readInt();
++	for (int i = 1; i<=tempo; i++){
++		a = (float)(capital *(Math.pow((1+taxa/100f), tempo)));
++		System.out.println ("\nMontante no ano:"+ i + "="+a);
++		}
++	JUtil.pause();
++	}
++}
+\ No newline at end of file
+Index: ../Class-atributos/Retangulo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Class-atributos/Retangulo.java b/../Class-atributos/Retangulo.java
+new file mode 100644
+--- /dev/null	(date 1648039605045)
++++ b/../Class-atributos/Retangulo.java	(date 1648039605045)
+@@ -0,0 +1,19 @@
++class Retangulo {
++float base, altura;
++
++float area () {
++	return this.base*this.altura;
++}
++
++float perimetro(){
++	return (2*(this.base+this.altura));
++}
++
++public void mostrarDados(){
++	System.out.println ("Area:"+ this.area());
++	System.out.println ("Petimetro:"+ this.perimetro());
++}
++
++
++
++}
+\ No newline at end of file
+Index: ../Class-atributos/lerRetangulo.java.bak
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Class-atributos/lerRetangulo.java.bak b/../Class-atributos/lerRetangulo.java.bak
+new file mode 100644
+--- /dev/null	(date 1648647147974)
++++ b/../Class-atributos/lerRetangulo.java.bak	(date 1648647147974)
+@@ -0,0 +1,25 @@
++import java.io.*;
++
++class lerRetangulo {
++
++	public static void main (String[] args) throws Exception {
++		System.out.println ("Informe a quantidade de retangulos:");
++	Retangulo retangulo1 [] = new Retangulo [JUtil.readInt()];
++	
++	for (int i=0;i < retangulo1.length;i++ )
++	{
++		retangulo1[i] = new Retangulo();
++		System.out.println ("informe a base:");
++		retangulo1[i].base = JUtil.readFloat();
++		System.out.println ("informe o altura:");
++		retangulo1[i].altura = JUtil.readFloat();
++	}
++	
++	for (int i=0; i<retangulo.length; i++ )
++	{
++		retangulo1[i].mostrarDados();
++	}
++
++
++}
++}
+\ No newline at end of file
+Index: out/production/2 - Java Programas Seleção/Pessoa-Ex1Vetor.java.bak
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/out/production/2 - Java Programas Seleção/Pessoa-Ex1Vetor.java.bak b/out/production/2 - Java Programas Seleção/Pessoa-Ex1Vetor.java.bak
+new file mode 100644
+--- /dev/null	(date 1650633067081)
++++ b/out/production/2 - Java Programas Seleção/Pessoa-Ex1Vetor.java.bak	(date 1650633067081)
+@@ -0,0 +1,7 @@
++class Pessoa-Ex1Vetor 
++{
++
++	String Nome;
++	int Idade;
++
++}
+\ No newline at end of file
+Index: ../Class-atributos/Cubo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Class-atributos/Cubo.java b/../Class-atributos/Cubo.java
+new file mode 100644
+--- /dev/null	(date 1648041931857)
++++ b/../Class-atributos/Cubo.java	(date 1648041931857)
+@@ -0,0 +1,16 @@
++class Cubo {
++float aresta;
++
++double area () {
++	return (6*(Math.pow(this.aresta, 2)));
++}
++double volume (){
++	return Math.pow(this.aresta,3);
++}
++
++public void mostarDados (){
++System.out.println ("Area:" + this.area());
++System.out.println ("Volume: "+ this.volume());
++}
++
++}
+\ No newline at end of file
+Index: ../Class-atributos/lerCubo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Class-atributos/lerCubo.java b/../Class-atributos/lerCubo.java
+new file mode 100644
+--- /dev/null	(date 1648041836910)
++++ b/../Class-atributos/lerCubo.java	(date 1648041836910)
+@@ -0,0 +1,19 @@
++import java.io.*;
++
++class lerCubo {
++
++	public static void main (String[] args) throws Exception {
++	Cubo cubo1 = new Cubo ();
++
++	do {
++		System.out.println ("Informe aresta:");
++		cubo1.aresta = JUtil.readFloat();
++		cubo.mostrarDados();
++		System.out.println ("Deseja fazer nova opera��o ? 1-Sim, 0- N�o");
++		cubo1.aresta = JUtil.readFloat();
++	} while (cubo1.aresta != 0);
++	
++	}
++	
++	
++}
+\ No newline at end of file
+Index: out/production/2 - Java Programas Seleção/.idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/out/production/2 - Java Programas Seleção/.idea/misc.xml b/out/production/2 - Java Programas Seleção/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1650646023174)
++++ b/out/production/2 - Java Programas Seleção/.idea/misc.xml	(date 1650646023174)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager" version="2" project-jdk-name="17" project-jdk-type="JavaSDK">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++</project>
+\ No newline at end of file
+Index: ../Class-atributos/Cubo.java.bak
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Class-atributos/Cubo.java.bak b/../Class-atributos/Cubo.java.bak
+new file mode 100644
+--- /dev/null	(date 1648041898500)
++++ b/../Class-atributos/Cubo.java.bak	(date 1648041898500)
+@@ -0,0 +1,16 @@
++class Cubo {
++float aresta;
++
++double area () {
++	return (6*(Math.exp(this.aresta, 2)));
++}
++double volume (){
++	return Math.exp(this.aresta,3);
++}
++
++public void mostarDados (){
++System.out.println ("Area:" + this.area());
++System.out.println ("Volume: "+ this.volume());
++}
++
++}
+\ No newline at end of file
+Index: out/production/2 - Java Programas Seleção/numeros.java.bak
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/out/production/2 - Java Programas Seleção/numeros.java.bak b/out/production/2 - Java Programas Seleção/numeros.java.bak
+new file mode 100644
+--- /dev/null	(date 1646831150789)
++++ b/out/production/2 - Java Programas Seleção/numeros.java.bak	(date 1646831150789)
+@@ -0,0 +1,27 @@
++import java.io.*;
++class numeros {
++	public static void main (String[]args) throws Exception {
++	int linhas, cont;
++	String conf = "y";
++	System.out.println ("Informe quantos numeros deseja aparecer:");
++	linhas = JUtil.readInt();
++	cont = 1;
++	while (cont <=linhas || conf.equals("y")){
++		if ((cont%5) == 0 || cont == linhas){
++			System.out.println(cont);
++		} else
++		{
++			System.out.print(cont +",");
++		}
++		if (cont%10 == 0)
++		{
++			System.out.println ("Deseja aparecer mais linhas? y/n");
++			conf = JUtil.readString();
++		}
++		cont ++;
++	}
++	JUtil.pause();
++	
++	
++	}
++}
+\ No newline at end of file
+Index: ../Class-atributos/lerRetangulo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../Class-atributos/lerRetangulo.java b/../Class-atributos/lerRetangulo.java
+new file mode 100644
+--- /dev/null	(date 1648647390125)
++++ b/../Class-atributos/lerRetangulo.java	(date 1648647390125)
+@@ -0,0 +1,25 @@
++import java.io.*;
++
++class lerRetangulo {
++
++	public static void main (String[] args) throws Exception {
++		System.out.println ("Informe a quantidade de retangulos:");
++	Retangulo retangulo1 [] = new Retangulo [JUtil.readInt()];
++	
++	for (int i=0;i < retangulo1.length;i++ )
++	{
++		retangulo1[i] = new Retangulo();
++		System.out.println ("informe a base:");
++		retangulo1[i].base = JUtil.readFloat();
++		System.out.println ("informe o altura:");
++		retangulo1[i].altura = JUtil.readFloat();
++	}
++	
++	for (int i=0; i<retangulo1.length; i++ )
++	{
++		retangulo1[i].mostrarDados();
++	}
++
++
++}
++}
+\ No newline at end of file
+Index: Ex1Vetor2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ex1Vetor2.java b/Ex1Vetor2.java
+new file mode 100644
+--- /dev/null	(date 1650646263060)
++++ b/Ex1Vetor2.java	(date 1650646263060)
+@@ -0,0 +1,23 @@
++class Ex1Vetor2 
++{
++	public static void main(String[] args) throws Exception 
++	{
++		int x;
++			//, somaidades=0, maior=0, menor=0, y, i, temp =0;
++		//float mediaidades;
++		//String n;
++		//System.out.println ("Informe a quantidade de nomes e idades:");
++		PessoaEx1Vetor p []= new PessoaEx1Vetor [JUtil.readInt()];
++		//int tempidade[] = new int [p.length];
++		//System.out.println ("Quantidade de nomes:" + p.length + "\n Quantidade de Idades:"+ p.length);
++		x =0;
++		while (x<p.length){
++			System.out.println ("Qual a "+ (x+1) +"� nome ?");
++			p[x].Nome = JUtil.readString();
++			System.out.println ("Qual a "+ (x+1) +"� idade ?");
++			p[x].Idade = JUtil.readInt();
++			System.out.println ("Nomes e idades Informados:");
++		x = x+1;
++		}
++	}
++}
+Index: montante.java]
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/montante.java] b/montante.java]
+new file mode 100644
+--- /dev/null	(date 1646825127806)
++++ b/montante.java]	(date 1646825127806)
+@@ -0,0 +1,24 @@
++import java.io*
++
++class montante {
++
++	public static void main(String []args) throws Exception{
++	String capital, taxa;
++	integer tempo, a;
++	
++	System.out.println ("Cacular montante \n Informe o Capital:");
++	capital = JUtil.readFloat ();
++	System.out.println ("Informe a taxa anual em %:");
++	taxa = JUtil.readFloat ();
++	System.out.println ("informe o tempo(anos):");
++	tempo = JUtil.readInteger ();
++	for (int i = 1; i<=tempo; i++){
++		a = capital*Math.pow((1+taxa), tempo)
++		System.out.println ("\nMontante no ano:"+ i + "="+a);
++		}
++	JUtil.pause();
++	}
++
++
++
++]
+\ No newline at end of file
+Index: montante.java.bak
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/montante.java.bak b/montante.java.bak
+new file mode 100644
+--- /dev/null	(date 1646825960140)
++++ b/montante.java.bak	(date 1646825960140)
+@@ -0,0 +1,21 @@
++import java.io.*;
++
++class montante {
++
++	public static void main(String []args) throws Exception{
++	float capital, taxa,a;
++	int tempo;
++	
++	System.out.println ("Cacular montante \n Informe o Capital:");
++	capital = JUtil.readFloat();
++	System.out.println ("Informe a taxa anual em %:");
++	taxa = JUtil.readFloat();
++	System.out.println ("informe o tempo(anos):");
++	tempo = JUtil.readInt();
++	for (int i = 1; i<=tempo; i++){
++		a = (float)(capital *(Math.pow((1+taxa/100f), tempo)));
++		System.out.println ("\nMontante no ano:"+ i + "="+a);
++		}
++	JUtil.pause();
++	}
++}
+\ No newline at end of file
+Index: Ex1Vetor.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>windows-1252
+===================================================================
+diff --git a/Ex1Vetor.java b/Ex1Vetor.java
+new file mode 100644
+--- /dev/null	(date 1650648260068)
++++ b/Ex1Vetor.java	(date 1650648260068)
+@@ -0,0 +1,130 @@
++
++/*1) Pedir N nomes e idades.
++– a) Pedir assim: “Qual a 1º nome ?”
++– b) Mostrar quais os nomes e idades informados
++– c) Somar as idades
++– d) Média das idades
++– e) Maior e menor idade
++– f) Mostrar em ordem decrescente !
++– g) Entre 10 e 40 anos
++– h) Pedir um número e mostrar o nome
++– i) Pedir um nome e mostrar o número */
++class Ex1Vetor 
++{
++	public static void main(String[] args) throws Exception 
++	{
++		int x, somaidades=0, maior=0, menor=0, y, i, temp =0;
++		float mediaidades;
++		String n;
++		System.out.println ("Informe a quantidade de nomes e idades:");
++		PessoaEx1Vetor p []= new PessoaEx1Vetor [JUtil.readInt()];
++		int tempidade[] = new int [p.length];
++		System.out.println ("Quantidade de nomes:" + p.length + "\n Quantidade de Idades:"+ p.length);
++		x =0;
++		while (x<p.length){
++			p[x] = new PessoaEx1Vetor(); 
++			System.out.println ("Qual a "+ (x+1) +"º nome ?");
++			p[x].Nome = JUtil.readString();
++			System.out.println ("Qual a "+ (x+1) +"º idade ?");
++			p[x].Idade = JUtil.readInt();
++			System.out.println ("Nomes e idades Informados:");
++			x = x+1;
++		}
++		for (i = 0; i<(int)p.length ; i++)
++		{
++			System.out.println ("Nome:"+ p[i].Nome + " - Idade:"+ p[i].Idade);
++			somaidades = somaidades+ p[i].Idade;
++			if (maior == 0)
++			{
++				maior = p[i].Idade;
++			} else if (p[i].Idade > maior)
++			{
++				maior = p[i].Idade;
++			}
++			if (menor == 0)
++			{
++				menor = p[i].Idade;
++			} else if (p[i].Idade < menor)
++			{
++				menor = p[i].Idade;
++			}
++		}
++		mediaidades = (somaidades/p.length);
++		System.out.println ("Soma Idades:"+ somaidades +"\n Media Idades:"+ mediaidades +"\n Maior Idade:"+
++			maior +"\n Menor Idade"+ menor);
++		System.out.println ("Ordem decrescente da idades:");
++		tempidade[0] = maior;
++		for (i =0; i< p.length ; i++ )
++		{
++			if (i !=0)
++			{
++				for (y=0; y<p.length ; y++ )
++				{
++					if (p[y].Idade != maior && p[y].Idade < maior)
++					{
++						if (p[y].Idade > temp)
++						{
++							tempidade[i] = p[y].Idade;
++							temp = p[y].Idade;
++						}
++					}
++				}
++				maior = temp;
++				temp=0;
++			}
++							
++		}
++		for (i=0; i<tempidade.length ;i++ )
++		{
++			if (i == (tempidade.length-1))
++			{
++				System.out.println (tempidade[i]);
++			}else
++			{
++				System.out.print (tempidade[i] +",");
++			}
++		}
++		System.out.println ("Pessoas entre 20 a 40 anos:");
++		for (i=0; i<p.length ; i++ )
++		{
++			if (p[i].Idade >= 20 && p[i].Idade <= 40)
++			{
++				if (i == (p.length-1))
++				{
++					System.out.println (p[i].Nome +" = "+ p[i].Idade);
++				} else
++				{
++					System.out.print (p[i].Nome +" = "+p[i].Idade+",");
++				}
++			}
++		}
++		temp = 1;
++		while (temp!=0)
++		{
++			System.out.println ("Informe o nome da pessoa que deseja saber a idade:");
++			n = JUtil.readString();
++			for (i=0; i<p.length; i++)
++			{
++				if (p[i].Nome.equals(n)){
++					System.out.println ("A idade é:"+ p[i].Idade);
++				}
++			}
++			System.out.println ("Digite a idade, para saber as pessoas com ela");
++			temp = JUtil.readInt();
++			for (i=0; i<p.length; i++)
++			{
++				if (p[i].Idade == temp){
++					System.out.println ("Nome:"+ p[i].Idade +" tem a idade informada");
++				}
++			}
++			System.out.println ("Deseja finalizar consulta ? para sim digite 0");
++			temp = JUtil.readInt();
++		}
++
++
++
++
++
++
++	}
++}
+Index: numeros.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/numeros.java b/numeros.java
+new file mode 100644
+--- /dev/null	(date 1646831182499)
++++ b/numeros.java	(date 1646831182499)
+@@ -0,0 +1,27 @@
++import java.io.*;
++class numeros {
++	public static void main (String[]args) throws Exception {
++	int linhas, cont;
++	String conf = "y";
++	System.out.println ("Informe quantos numeros deseja aparecer:");
++	linhas = JUtil.readInt();
++	cont = 1;
++	while (cont <=linhas && conf.equals("y")){
++		if ((cont%5) == 0 || cont == linhas){
++			System.out.println(cont);
++		} else
++		{
++			System.out.print(cont +",");
++		}
++		if (cont%10 == 0)
++		{
++			System.out.println ("Deseja aparecer mais linhas? y/n");
++			conf = JUtil.readString();
++		}
++		cont ++;
++	}
++	JUtil.pause();
++	
++	
++	}
++}
+\ No newline at end of file

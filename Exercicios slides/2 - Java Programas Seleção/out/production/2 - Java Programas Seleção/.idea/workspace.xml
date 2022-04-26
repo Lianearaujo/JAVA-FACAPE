@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e96bd720-6bbc-4903-9251-65f25ecfec38" name="Changes" comment="" />
+    <list default="true" id="e96bd720-6bbc-4903-9251-65f25ecfec38" name="Changes" comment="1,1">
+      <change afterPath="$PROJECT_DIR$/FuncionarioMatricula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LerFuncionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MatriculaFuncionario" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class-atributos/Cubo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class-atributos/Cubo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class-atributos/Cubo.java.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class-atributos/JUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class-atributos/JUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class-atributos/Retangulo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class-atributos/Retangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class-atributos/lerCubo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class-atributos/lerCubo.java.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class-atributos/lerRetangulo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class-atributos/lerRetangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class-atributos/lerRetangulo.java.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Class-atributos/retangulo.java.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ex1Vetor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ex1Vetor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2 - Java Programas Seleção/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2 - Java Programas Seleção/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2 - Java Programas Seleção/Ex1Vetor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2 - Java Programas Seleção/Ex1Vetor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2 - Java Programas Seleção/Ex1Vetor3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2 - Java Programas Seleção/Ex1Vetor3.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,10 +46,26 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/elton/OneDrive/Área de Trabalho/Java/GitHub/Exercicios slides/2 - Java Programas Seleção"
+    "last_opened_file_path": "C:/Users/elton/OneDrive/Área de Trabalho/Java/GitHub/Exercicios slides/2 - Java Programas Seleção",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
-  <component name="RunManager" selected="JAR Application.run">
+  <component name="RunManager" selected="Application.Estoque">
+    <configuration name="Estoque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="MAIN_CLASS_NAME" value="Estoque" />
+      <module name="2 - Java Programas Seleção" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex1Vetor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ex1Vetor" />
+      <module name="2 - Java Programas Seleção" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="compilar" type="JarApplication">
       <option name="JAR_PATH" value="$PROJECT_DIR$/../../../../../../../../Program Files/Java/jdk-17.0.2/bin/javac.exe" />
       <option name="PROGRAM_PARAMETERS" value="$FileName$" />
@@ -44,9 +82,17 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.Estoque" />
+      <item itemvalue="Application.Ex1Vetor" />
       <item itemvalue="JAR Application.compilar" />
       <item itemvalue="JAR Application.run" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Estoque" />
+        <item itemvalue="Application.Ex1Vetor" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -56,11 +102,63 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650645191770</updated>
-      <workItem from="1650645193638" duration="822000" />
+      <workItem from="1650645193638" duration="5856000" />
+      <workItem from="1650908068727" duration="1462000" />
+      <workItem from="1650982676645" duration="5150000" />
+      <workItem from="1650993392988" duration="2040000" />
     </task>
+    <task id="LOCAL-00001" summary="1,1">
+      <created>1650650236696</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650650236696</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1,1">
+      <created>1650650255738</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650650255738</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1,1">
+      <created>1650650293738</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650650293738</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1,1">
+      <created>1650650495027</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1650650495027</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1,2, Arrays, Metodos, Objeto" />
+    <MESSAGE value="1,1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1,1" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

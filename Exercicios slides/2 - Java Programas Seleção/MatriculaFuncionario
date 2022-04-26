@@ -1,0 +1,5 @@
+class MatriculaFuncionario{
+    int matricula;
+    float salario
+
+}
