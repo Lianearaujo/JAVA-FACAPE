@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e96bd720-6bbc-4903-9251-65f25ecfec38" name="Changes" comment="1,1">
-      <change afterPath="$PROJECT_DIR$/FuncionarioMatricula.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LerFuncionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MatriculaFuncionario" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SomaNumeros.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class-atributos/Cubo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class-atributos/Cubo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class-atributos/Cubo.java.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class-atributos/JUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class-atributos/JUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class-atributos/Retangulo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class-atributos/Retangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class-atributos/lerCubo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class-atributos/lerCubo.java.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class-atributos/lerRetangulo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class-atributos/lerRetangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class-atributos/lerRetangulo.java.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Class-atributos/retangulo.java.bak" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ex1Vetor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ex1Vetor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2 - Java Programas Seleção/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2 - Java Programas Seleção/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2 - Java Programas Seleção/Ex1Vetor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2 - Java Programas Seleção/Ex1Vetor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/2 - Java Programas Seleção/Ex1Vetor3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2 - Java Programas Seleção/Ex1Vetor3.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,15 +21,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/elton/OneDrive/Área de Trabalho/Java/GitHub/Exercicios slides/2 - Java Programas Seleção",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/elton/OneDrive/Área de Trabalho/Java/GitHub/Exercicios slides/2 - Java Programas Seleção&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.SomaNumeros">
     <configuration name="Estoque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
@@ -125,6 +104,9 @@
       <workItem from="1650908068727" duration="1462000" />
       <workItem from="1650982676645" duration="5150000" />
       <workItem from="1650993392988" duration="7007000" />
+      <workItem from="1651058985228" duration="268000" />
+      <workItem from="1651161402871" duration="296000" />
+      <workItem from="1651161739928" duration="62000" />
     </task>
     <task id="LOCAL-00001" summary="1,1">
       <created>1650650236696</created>
